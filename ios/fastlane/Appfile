@@ -1,0 +1,8 @@
+app_identifier("SmartCalculatorForYou") # The bundle identifier of your app
+apple_id("zgmnjf@yeah.net") # Your Apple email address
+
+itc_team_id("120072104") # App Store Connect Team ID
+team_id("K446ASNXWL") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

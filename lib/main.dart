@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CupertinoApp(
-      title: 'Flutter Calculator',
+      title: 'Calculator',
       debugShowCheckedModeBanner: false,
       home: CalculatorPage(),
     );
@@ -118,7 +118,7 @@ class CalculatorState extends State<StatefulWidget> {
                   child: Container(
                     color: Colors.lightBlue[300],
                     alignment: Alignment.bottomRight,
-                    padding: const EdgeInsets.all(16.0),
+                    padding: const EdgeInsets.all(10.0),
                     child: ResultDisplay(result: currentDisplay),
                   ),
                 ),

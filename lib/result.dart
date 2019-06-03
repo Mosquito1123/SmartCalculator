@@ -95,7 +95,7 @@ class HistoryBlock extends StatelessWidget {
       text = '${result.firstNum}';
     }
     return Padding(
-      padding: EdgeInsets.only(top: 16.0, bottom: 16.0, right: 16.0),
+      padding: EdgeInsets.only(top: 10.0, bottom: 10.0, right: 16.0),
       child: Container(
         padding: EdgeInsets.all(16.0),
         alignment: Alignment.center,
